@@ -2,7 +2,7 @@
 This repository cotnains the Python script used to create the program that monitored the service level agreemnts (SLA) for the 5 most high profile clients. Once the data is extracted using SQL, it is cleaned and processed in Python. The cleaning process involves standardizing formats, removing duplicates, and ensuring data accuracy. To err on the side of caution, the SQL script will be omitted.
 
 ## Project Overview
-The project was looking at the turn around time (tat), report age time (rat), volume for the month, volume year to date, and average tat year to date. This project used visualtization  all through table and graphs to prove/disprove if we were within the sla. To take the program a step further, the tat graph for each client was embeded into the body of the email allowing for quick visualization to show sla was met.  If for some reason we exceed the pre-defined tat, the projec manager then reached out to the lab to see why there was a delay.  
+The project was looking at the turn around time (tat), report age time (rat), volume for the month, volume year to date, and average tat year to date. This project used visualtization  all through table and graphs to prove/disprove if we were within the sla. To take the program a step further, the tat graph for each client was embeded into the body of the email allowing for quick visualization to show sla was met.  If for some reason we exceed the pre-defined tat, the project manager then reached out to the lab.
 
 ## Data Sources
 The SQL script pulls data from the following tables:
